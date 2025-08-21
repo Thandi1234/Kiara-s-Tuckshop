@@ -1,0 +1,36 @@
+<html>
+    
+<title>Sales</title>
+<script type="text/javascript">
+    function calculate(){
+        var total = parseInt(sales.week1.value) + parseInt(sales.week2.value) + parseInt(sales.week3.value) + parseInt(sales.week4.value);
+        var average = total/4;
+        var name = sales.name.value;
+
+        document.writeln("welcome back :" + name + "<br>");
+        document.writeln("Total sales :" + total + "<br>");
+        document.writeln("Average sales :" + average + "<br>");
+    }
+
+</script>
+<body>
+    <form name="sales">
+            
+        Enter your name:<input type="text" name = "name"><br>
+        Enter Total week 1 sales:<input type="text" name = "week1"><br>
+        Enter Total week 2 sales:<input type="text" name = "week2"><br>
+        Enter Total week 3 sales:<input type="text" name = "week3"><br>
+        Enter Total week 4 sales:<input type="text" name = "week4"><br>
+        <input type="Button" value="Calculate" onclick="calculate()">
+</form>
+</body>
+<nav>
+    <a href="thand.html">Home</a>  
+    <a href="Registration.html">Registration</a>
+    <a href="Products.html">Products</a>
+    <a href="Order.html">Order</a>
+    <a href="Contact us.html">Contact US</a> 
+    <a href="calculate.html">calculate</a>  
+    <a href="login.html">login Form</a>
+</nav>
+<html>

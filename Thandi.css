@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  auto 100vh auto;
+    grid-template-areas: 
+        "header header header"
+        "nav content sidebar"
+        "footer footer footer"
+    ;
+
+}
+header{
+    grid-area: header;
+    background: #a50261;
+    padding: 20px;
+    text-align: center;
+    color: white;   
+}
+
+nav{
+    grid-area: nav;
+    background: #333;
+    padding: 15px;
+    color: white;
+
+}
+nav a{
+color:white;
+text-decoration: none;
+display: block;
+padding: 5px 0;
+}
+nav a:hover{
+    background: black;
+}
+#sidebar{
+    grid-area: sidebar;
+    background: blueviolet;
+    padding: 15px;
+    color: white;
+}
+.resize{
+    width: 150;
+    height: 150;
+}
+.content{
+    grid-area: content;
+    background: pink;
+    padding: 15px;
+}
+footer{
+    grid-area: footer ;
+    background: green;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+h1 img{
+    height: 100px;
+    width: 100px;
+}
+h1 image{
+    height: 100px;
+    width: 100px; 
+}
+h2 img{
+    height: 300px;
+    width: 300px;   
+}
+
+#sidebar img{
+    height: 400px;
+    width: 400px;
+    display: inline;
+}
+.content .image img{
+    height: 150px;
+    width: 150px; 
+    display: inline-flexbox;
+}
+h1 image{
+    height: 100px;
+    width: 100px;    
+}
+h1 image{
+    height: 100px;
+    width: 100px;    
+  
+}
+h1 image{
+    height: 100px;
+    width: 100px;      
+}
+
+
+
